@@ -1,7 +1,5 @@
 # Portfolio Optimization & Automated Equity Research (Python)
 
-[![Open in Streamlit](https://sanpan100-portfolio-optimizer.streamlit.app/)
-
 This project builds a **quantitative portfolio optimization system** using Python and Modern Portfolio Theory (MPT). It analyzes multiple NSE stocks, simulates thousands of portfolios, and identifies the optimal portfolio based on **risk-return trade-offs**.
 
 The system automatically downloads historical market data, calculates financial metrics, and generates visualizations such as the **efficient frontier, correlation heatmaps, and optimal portfolio allocation**.
