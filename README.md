@@ -88,11 +88,14 @@ portfolio-optimizer
 │   └── tickers.csv
 ├── Jupiter_Notebook
 |   └── main.py
-│
-├── Python
-|   └── main.py
-├── requirements.txt
-└── README.md
+├── modules
+|   ├── data_loader.py
+|   ├── risk_metrics.py
+|   ├── simulation.py
+|   └── visualization.py
+├── app.py
+├── README.md
+└── requirements.txt
 
 ```
 
