@@ -128,7 +128,7 @@ def efficient_frontier(portfolio, max_sharpe_portfolio, min_volatility_portfolio
 
 
 # User Input
-available_tickers = pd.read_csv("../Data/tickers.csv")["Tickers"]
+available_tickers = pd.read_csv("Data/tickers.csv")["Tickers"]
 selected = st.multiselect("select", available_tickers, default=["RELIANCE.NS", "TCS.NS", "INFY.NS"])
 custom_input = st.text_input("Or type custom tickers (comma separated)")
 custom = []
