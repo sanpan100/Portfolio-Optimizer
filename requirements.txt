@@ -8,6 +8,7 @@ pandas-datareader
 scipy
 statsmodels
 scikit-learn
+streamlit
 openpyxl
 jupyter
 nsepython
