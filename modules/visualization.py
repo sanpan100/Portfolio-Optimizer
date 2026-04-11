@@ -6,7 +6,7 @@ import pandas as pd
 
 # Normaalization chart function
 def normalization_chart(nse_data):
-    normalized_data = nse_data/nse_data.iloc[0]
+    normalized_data = (nse_data/nse_data.iloc[0]) * 100
     normalized_data = normalized_data.reset_index()
     normalized_data = normalized_data.melt(
         id_vars = "Date",
